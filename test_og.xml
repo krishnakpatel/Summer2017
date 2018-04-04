@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<circuit><max_num_node>0</max_num_node><edges_list><start at="1"><end at="2">w0 </end></start><start at="2"><end at="3">r50 </end><end at="5">r77 r85 </end><end at="7">r63 </end></start><start at="3"><end at="1">r100 </end></start><start at="5"><end at="7">r50 </end></start><start at="7"><end at="3">r200 </end></start></edges_list></circuit>

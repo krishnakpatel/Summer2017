@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<circuit>
+	<Component metricPrefix="" name="" type="Resistor" value="0.5">
+		<Node>(1, 2)</Node>
+		<Node>(3, 4)</Node>
+	</Component>
+	<Component metricPrefix="" name="" type="Capacitor" value="0.05">
+        <Node>(5, 6)</Node>
+		<Node>(7, 8)</Node>
+	</Component>
+	<Component metricPrefix="" name="" type="Inductor" value="0.01">
+		<Node>(9, 10)</Node>
+		<Node>(11, 12)</Node>
+	</Component>
+    <Component metricPrefix="" name="pressure_sample.dat" type="Boundary Face" value="">
+        <Node>(17, 18)</Node>
+        <Node>(19, 20)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(21, 22)</Node>
+        <Node>(23, 24)</Node>
+    </Component>
+	<wire>
+		<wirePos>23, 24, 5, 6</wirePos>
+	</wire>
+    <wire>
+        <wirePos>5, 6, 9, 10</wirePos>
+    </wire>
+	<wire>
+		<wirePos>11, 12, 1, 2</wirePos>
+	</wire>
+    <wire>
+        <wirePos>3, 4, 17, 18</wirePos>
+    </wire>
+</circuit>

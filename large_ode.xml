@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<circuit>
+	<Component metricPrefix="" name="pressure_sample.dat" type="Boundary Face" value="">
+		<Node>(10.0, -3.0)</Node>
+		<Node>(15.0, -3.0)</Node>
+	</Component>
+	<Component metricPrefix="" name="Ra" type="Resistor" value="1.0">
+        <Node>(2.0, -1.0)</Node>
+		<Node>(2.0, -5.0)</Node>
+	</Component>
+	<Component metricPrefix="" name="" type="Boundary Face" value="">
+		<Node>(5.0, 0.0)</Node>
+		<Node>(7.0, 0.0)</Node>
+	</Component>
+    <Component metricPrefix="" name="Ca" type="Capacitor" value="0.05">
+        <Node>(0.0, 0.0)</Node>
+        <Node>(1.0, 0.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="La" type="Inductor" value="0.01">
+        <Node>(2.0, 0.0)</Node>
+        <Node>(2.5, 0.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="Rr" type="Resistor" value="2.0">
+        <Node>(67.0, 0.0)</Node>
+        <Node>(34.0, 0.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="Rl" type="Resistor" value="3.0">
+        <Node>(89.0, 90.4)</Node>
+        <Node>(100.0, 23.5)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(234.03, 835.38)</Node>
+        <Node>(375.2, 58.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="Cr" type="Capacitor" value="0.0025">
+        <Node>(34.0, 48.0)</Node>
+        <Node>(12.03, 9855.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="r_bc_r" type="Resistor" value="15.0">
+        <Node>(13.0, 4.0)</Node>
+        <Node>(1.03, 955.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(9.45, 84.9)</Node>
+        <Node>(3.7, 34.2)</Node>
+    </Component>
+    <Component metricPrefix="" name="C_bc_r" type="Capacitor" value="0.04">
+        <Node>(2.4, 0.8)</Node>
+        <Node>(0.3, 58.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="R_bc_r" type="Resistor" value="150.0">
+        <Node>(35.0, 49.0)</Node>
+        <Node>(12.3, 45.6)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(67.8, 98.1)</Node>
+        <Node>(1.0, 9.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(374.9, 3084.9)</Node>
+        <Node>(37.27, 394.2)</Node>
+    </Component>
+    <Component metricPrefix="" name="Cl" type="Capacitor" value="0.0025">
+        <Node>(47.3, 75.9)</Node>
+        <Node>(5.147, 35.8)</Node>
+    </Component>
+    <Component metricPrefix="" name="r_bc_l" type="Resistor" value="10.0">
+        <Node>(8.0, 49.0)</Node>
+        <Node>(2.3, 45.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(3.9, 30.9)</Node>
+        <Node>(3.0, 3.2)</Node>
+    </Component>
+    <Component metricPrefix="" name="C_bc_l" type="Capacitor" value="0.05">
+        <Node>(1.2, 3.4)</Node>
+        <Node>(5.6, 7.8)</Node>
+    </Component>
+    <Component metricPrefix="" name="R_bc_l" type="Resistor" value="100.0">
+        <Node>(8.89, 9.89)</Node>
+        <Node>(3.67, 42.0)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(0.45, 0.78)</Node>
+        <Node>(0.453, 0.54)</Node>
+    </Component>
+    <wire>
+        <wirePos>15.0, -3.0, 2.0, -1.0</wirePos>
+    </wire>
+	<wire>
+		<wirePos>2.0, -5.0, 5.0, 0.0</wirePos>
+	</wire>
+    <wire>
+        <wirePos>5.0, 0.0, 0.0, 0.0</wirePos>
+    </wire>
+	<wire>
+		<wirePos>7.0, 0.0, 2.0, 0.0</wirePos>
+	</wire>
+    <wire>
+        <wirePos>2.5, 0.0, 67.0, 0.0</wirePos>
+    </wire>
+    <wire>
+        <wirePos>2.5, 0.0, 89.0, 90.4</wirePos>
+    </wire>
+    <wire>
+        <wirePos>34.0, 0.0, 234.03, 835.38</wirePos>
+    </wire>
+    <wire>
+        <wirePos>100.0, 23.5, 374.9, 3084.9</wirePos>
+    </wire>
+    <wire>
+        <wirePos>234.03, 835.38, 13.0, 4.0</wirePos>
+    </wire>
+    <wire>
+        <wirePos>1.03, 955.0, 3.7, 34.2</wirePos>
+    </wire>
+    <wire>
+        <wirePos>9.45, 84.9, 2.4, 0.8</wirePos>
+    </wire>
+    <wire>
+        <wirePos>3.7, 34.2, 9.45, 84.9</wirePos>
+    </wire>
+    <wire>
+        <wirePos>3.7, 34.2, 35.0, 49.0</wirePos>
+    </wire>
+    <wire>
+        <wirePos>12.3, 45.6, 67.8, 98.1</wirePos>
+    </wire>
+    <wire>
+        <wirePos>37.27, 394.2, 47.3, 75.9</wirePos>
+    </wire>
+    <wire>
+        <wirePos>374.9, 3084.9, 8.0, 49.0</wirePos>
+    </wire>
+    <wire>
+        <wirePos>2.3, 45.0, 3.9, 30.9</wirePos>
+    </wire>
+    <wire>
+        <wirePos>3.0, 3.2, 1.2, 3.4</wirePos>
+    </wire>
+    <wire>
+        <wirePos>3.0, 3.2, 8.89, 9.89</wirePos>
+    </wire>
+    <wire>
+        <wirePos>3.67, 42.0, 0.45, 0.78</wirePos>
+    </wire>
+    <wire>
+        <wirePos>375.2, 58.0, 34.0, 48.0</wirePos>
+    </wire>
+</circuit>

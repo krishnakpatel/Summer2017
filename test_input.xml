@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<nodes>
+		<node num="1">1.534,5.342,0, </node>
+		<node num="2">7.983,5.342,0 </node>
+		<node num="3">10.987,5.342,file_nm </node>
+		<node num="4">11.357,5.342,0 </node>
+		<node num="5">15.678,5.342,0</node>
+		<node num="6">10.987,10.916,0</node>
+		<node num="7">10.987,12.301,0</node>
+	</nodes>
+	<wires>7.983,5.342,10.987,5.342 10.987,5.342,11.357,5.342 10.987,5.342,10.987,10.916 </wires>
+	<resistors>
+		<resistor num="1">1.534,5.342,7.983,5.342,15</resistor>
+		<resistor num="2">11.357,5.342,15.678,5.342,10 </resistor>
+	</resistors>
+	<capacitors>
+		<capacitor num="1">10.987,10.916,10.987,12.301,4 </capacitor>
+	</capacitors>
+</root>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<circuit>
+    <Component metricPrefix="" name="pressure_sample.dat" type="Boundary Face" value="">
+        <Node>(39, 40)</Node>
+        <Node>(25, 26)</Node>
+    </Component>
+	<Component metricPrefix="" name="" type="Resistor" value="10">
+		<Node>(1, 2)</Node>
+		<Node>(3, 4)</Node>
+	</Component>
+    <Component metricPrefix="" name="" type="Boundary Face" value="">
+        <Node>(35, 36)</Node>
+        <Node>(37, 38)</Node>
+    </Component>
+	<Component metricPrefix="" name="" type="Capacitor" value="0.05">
+        <Node>(5, 6)</Node>
+		<Node>(7, 8)</Node>
+	</Component>
+    <Component metricPrefix="" name="" type="Resistor" value="100">
+        <Node>(9, 10)</Node>
+        <Node>(11, 12)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Resistor" value="200">
+        <Node>(13, 14)</Node>
+        <Node>(15, 16)</Node>
+    </Component>
+    <Component metricPrefix="" name="" type="Resistor" value="300">
+        <Node>(17, 18)</Node>
+        <Node>(19, 20)</Node>
+    </Component>
+    <Component metricPrefix="" name="sin_outlet_pressure.dat" type="Boundary Face" value="">
+        <Node>(21, 22)</Node>
+        <Node>(23, 24)</Node>
+    </Component>
+    <Component metricPrefix="" name="cos_outlet_pressure.dat" type="Boundary Face" value="">
+        <Node>(27, 28)</Node>
+        <Node>(29, 30)</Node>
+    </Component>
+    <Component metricPrefix="" name="const_pressure_sample.dat" type="Boundary Face" value="">
+        <Node>(31, 32)</Node>
+        <Node>(33, 34)</Node>
+    </Component>
+    <wire>
+        <wirePos>3, 4, 5, 6</wirePos>
+    </wire>
+    <wire>
+        <wirePos>35, 36, 7, 8</wirePos>
+    </wire>
+    <wire>
+        <wirePos>5, 6, 9, 10</wirePos>
+    </wire>
+    <wire>
+        <wirePos>5, 6, 13, 14</wirePos>
+    </wire>
+    <wire>
+        <wirePos>5, 6, 17, 18</wirePos>
+    </wire>
+    <wire>
+        <wirePos>11, 12, 21, 22</wirePos>
+    </wire>
+    <wire>
+        <wirePos>15, 16, 27, 28</wirePos>
+    </wire>
+    <wire>
+        <wirePos>19, 20, 31, 32</wirePos>
+    </wire>
+    <wire>
+        <wirePos>39, 40, 1, 2</wirePos>
+    </wire>
+</circuit>

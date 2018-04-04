@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<root>
+	<nodes>
+		<node num="1">1.234,5.678,0 </node>
+		<node num="2">5.987,5.678,0 </node>
+		<node num="3">6.997,5.678,file_nm </node>
+		<node num="4">8.021,5.678,0 </node>
+		<node num="5">12.124,5.678,0</node>
+		<node num="6">13.126,5.678,0</node>
+		<node num="7">14.987,5.678,0</node>
+		<node num="8">18.982,5.678,0</node>
+		<node num="9">6.997,7.893,0</node>
+		<node num="10">6.997,10.987,0</node>
+		<node num="11">13.126,7.893,0</node>
+		<node num="12">13.126,10.987,0</node>
+	</nodes>
+	<wires>5.987,5.678,6.997,5.678 6.997,5.678,8.021,5.678 6.997,5.678,6.997,7.893 12.124,5.678,13.126,5.678 13.126,5.678,14.987,5.678 13.126,5.678,13.126,7.893 </wires>
+	<resistors>
+		<resistor num="1">1.234,5.678,5.987,5.678,15 </resistor>
+		<resistor num="2">8.021,5.678,12.124,5.678,10 </resistor>
+		<resistor num="3">14.987,5.678,18.982,5.678,15 </resistor>
+	</resistors>
+	<capacitors>
+		<capacitor num="1">6.997,7.893,6.997,10.987,4 </capacitor>
+		<capacitor num="2">13.126,7.893,13.126,10.987,8 </capacitor>
+	</capacitors>
+</root>
