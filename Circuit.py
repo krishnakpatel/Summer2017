@@ -129,7 +129,6 @@ class Circuit:
 		for i in range(2, num_pressures+2):
 			line = lnc.getline(file_name, i).rstrip().split(';')
 			self.load_node(None, line)
-
 		for x in range(i+2, (i+num_flows+2)):
 			line = lnc.getline(file_name, x).rstrip().split(';')
 			start = self.find_node(line[0])

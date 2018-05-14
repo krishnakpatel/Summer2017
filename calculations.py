@@ -245,8 +245,8 @@ class Calculator:
 
 
 # calc = Calculator('initial_pressure.txt', 'test.xml', 0.001, 3000)
-# calc = Calculator('intial_parallel_pressure.txt', 'parallel3.xml', 0.001, 2000)
-calc = Calculator('heart_input.txt', 'heart_chamber.xml', 0.001, 5000)
+calc = Calculator('intial_parallel_pressure.txt', 'parallel3.xml', 0.001, 2000)
+# calc = Calculator('heart_input.txt', 'heart_chamber.xml', 0.001, 5000)
 
 
 
